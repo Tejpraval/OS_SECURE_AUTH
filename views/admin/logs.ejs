@@ -1,0 +1,29 @@
+<%- include('../layout') %>
+
+<div class="dashboard-container">
+    <h2>System Logs</h2>
+    <div class="logs-list">
+        <table>
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>IP Address</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% logs.reverse().forEach(function(log) { %>
+                    <tr>
+                        <td><%= new Date(log.timestamp).toLocaleString() %></td>
+                        <td><%= log.ip %></td>
+                        <td><%= log.email %></td>
+                        <td><%= log.action %></td>
+                        <td><%= log.status %></td>
+                    </tr>
+                <% }); %>
+            </tbody>
+        </table>
+    </div>
+</div> 

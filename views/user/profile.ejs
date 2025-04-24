@@ -1,0 +1,20 @@
+<%- include('../layout') %>
+
+<div class="dashboard-container">
+    <h2>Your Profile</h2>
+    <div class="profile-content">
+        <div class="card">
+            <h3>Personal Information</h3>
+            <ul>
+                <li><strong>Username:</strong> <%= userProfile.username %></li>
+                <li><strong>Email:</strong> <%= userProfile.email %></li>
+                <li><strong>Role:</strong> <%= userProfile.role %></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Account Security</h3>
+            <p>Last login: <%= new Date().toLocaleString() %></p>
+            <p>Account created: <%= new Date().toLocaleString() %></p>
+        </div>
+    </div>
+</div> 

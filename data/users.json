@@ -1,0 +1,26 @@
+[
+  {
+    "username": "tej",
+    "email": "tejpraval32@outlook.com",
+    "password": "$2a$10$C/K9TeTUOghGHPMydbIKwem9wRDuXlVFvO31BtNOVn6oAWNKx2h6i",
+    "role": "user"
+  },
+  {
+    "username": "praval",
+    "email": "tejpraval32@gmail.com",
+    "password": "$2a$10$gYQ3/J1TUa5fTjvbctR7V.E8iWND0l/tVBWTtW0f3sVYCyiwkFFSG",
+    "role": "admin"
+  },
+  {
+    "username": "satya",
+    "email": "luckydell15@gmail.com",
+    "password": "$2a$10$JMVoT.pSZN3HDkjvAL2GwuI3yrrR.HaozV2mf1JWpfcn2s/RTktoe",
+    "role": "user"
+  },
+  {
+    "username": "tejesh",
+    "email": "tejesh2597@gmail.com",
+    "password": "$2a$10$wBZGSUGQuX45QeTz9l3Hhe10QTsr1dCm2mywYrXDjvngJxprofbH.",
+    "role": "user"
+  }
+]

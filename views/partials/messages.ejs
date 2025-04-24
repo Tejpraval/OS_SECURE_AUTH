@@ -1,0 +1,9 @@
+<% if (typeof messages !== 'undefined' && messages.length > 0) { %>
+    <div class="messages">
+        <% messages.forEach(function(message) { %>
+            <div class="message <%= message.type %>">
+                <%= message.text %>
+            </div>
+        <% }); %>
+    </div>
+<% } %> 
